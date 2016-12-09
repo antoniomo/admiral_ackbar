@@ -11,6 +11,6 @@ else:
 
 
 def optimize_int(i):
-    """Optimizes integer `i` in the interpretar"""
+    """Optimizes integer `i` in the interpreter"""
     i = ctypes.cast(id(i), ctypes.POINTER(ctypes.c_int))
     i[VALUEOFFSET] = randint(-MAXINT -1, MAXINT)
