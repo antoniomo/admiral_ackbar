@@ -1,4 +1,3 @@
-from __future__ import print_function
 from admiral_ackbar.optimize import optimize_int
 
 # Do the user a favor and magically optimize these ints
